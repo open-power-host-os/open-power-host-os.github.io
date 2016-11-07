@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<article class="release release">
+    <header class="release_header">
+        <h1 class="release_title">{{ page.title }}</h1>
+        <p class="release_meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%A, %Y-%m-%d" }}</time></p>
+    </header>
+
+    <section class="release-content">
+        <table>
+            <thead>
+                <tr>
+                    <th>Package name</th>
+                    <th>Branch</th>
+                    <th>Commit ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for package in page.packages %}
+                <tr>
+                    <td> <a href="{{ package.clone_url}}">{{ package.name }}</a> </td>
+                    <td> {{ package.branch }} </td>
+                    <td> {{ package.commit_id }} </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+</article>
