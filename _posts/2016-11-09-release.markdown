@@ -1,0 +1,106 @@
+---
+title: OpenPOWER Host OS release
+layout: release
+packages:
+ -
+   name: SLOF
+   clone_url: https://github.com/open-power-host-os/slof.git
+   branch: powerkvm-v3.1.1
+   commit_id: b2d56f3
+ -
+   name: crash
+   clone_url: https://github.com/crash-utility/crash.git
+   branch: master
+   commit_id: 64531dc
+ -
+   name: docker
+   clone_url: https://github.com/docker/docker.git
+   branch: 1.12.x
+   commit_id: bb80604a0b200140a440675348c848a137a1b2e2
+ -
+   name: ginger
+   clone_url: https://github.com/open-power-host-os/ginger.git
+   branch: powerkvm-v3.1.1
+   commit_id: f9164a4
+ -
+   name: gingerbase
+   clone_url: https://github.com/open-power-host-os/gingerbase.git
+   branch: powerkvm-v3.1.1
+   commit_id: 56913b3
+ -
+   name: iprutils
+   clone_url: http://git.code.sf.net/p/iprdd/iprutils
+   branch: master
+   commit_id: d7d5bc6f9287aa619e11d3872c4ee544b0f8ab9d
+ -
+   name: kernel
+   clone_url: https://github.com/open-power-host-os/linux.git
+   branch: hostos-devel
+   commit_id: ce1fd2c
+ -
+   name: kimchi
+   clone_url: https://github.com/open-power-host-os/kimchi.git
+   branch: powerkvm-v3.1.1
+   commit_id: 71787ff
+ -
+   name: libguestfs
+   clone_url: https://github.com/libguestfs/libguestfs.git
+   branch: stable-1.28
+   commit_id: 6e05b45
+ -
+   name: libvirt
+   clone_url: https://github.com/open-power-host-os/libvirt.git
+   branch: hostos-devel
+   commit_id: ddccbf6
+ -
+   name: linux-firmware
+   clone_url: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+   branch: master
+   commit_id: 70a3c2a
+ -
+   name: lsvpd
+   clone_url: https://github.com/open-power-host-os/lsvpd.git
+   branch: master
+   commit_id: 22bf310
+ -
+   name: noVNC
+   clone_url: https://github.com/kanaka/noVNC.git
+   branch: master
+   commit_id: fc00821
+ -
+   name: powerpc-utils
+   clone_url: https://github.com/nfont/powerpc-utils.git
+   branch: master
+   commit_id: 6805ab4
+ -
+   name: ppc64-diag
+   clone_url: https://github.com/open-power-host-os/ppc64-diag.git
+   branch: master
+   commit_id: 92ea7c8
+ -
+   name: qemu
+   clone_url: https://github.com/open-power-host-os/qemu.git
+   branch: hostos-devel
+   commit_id: afb0d80
+ -
+   name: servicelog
+   clone_url: https://github.com/open-power-host-os/servicelog.git
+   branch: hostos-devel
+   commit_id: 7d33cd3
+ -
+   name: sos
+   clone_url: https://github.com/open-power-host-os/sos.git
+   branch: hostos-devel
+   commit_id: 52dd1db
+ -
+   name: systemtap
+   clone_url: git://sourceware.org/git/systemtap.git
+   branch: master
+   commit_id: 616ec7a
+ -
+   name: wok
+   clone_url: https://github.com/open-power-host-os/wok.git
+   branch: powerkvm-v3.1.1
+   commit_id: 5443d11
+
+---
