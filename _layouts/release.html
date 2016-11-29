@@ -13,6 +13,8 @@ layout: default
             <thead>
                 <tr>
                     <th>Package name</th>
+                    <th>Version</th>
+                    <th>Release</th>
                     <th>Branch</th>
                     <th>Commit ID</th>
                 </tr>
@@ -21,6 +23,8 @@ layout: default
                 {% for package in page.packages %}
                 <tr>
                     <td> <a href="{{ package.clone_url}}">{{ package.name }}</a> </td>
+                    <td> {{ package.version }} </td>
+                    <td> {{ package.release }} </td>
                     <td> {{ package.branch }} </td>
                     <td> {{ package.commit_id }} </td>
                 </tr>
