@@ -24,6 +24,13 @@ packages:
    branch: 1.12.x
    commit_id: bb80604a0b200140a440675348c848a137a1b2e2
  -
+   name: docker-swarm
+   clone_url: https://github.com/docker/swarm.git
+   version: 1.1.0
+   release: 1
+   branch: master
+   commit_id: a0fd82b90932741bda54245e990df433a9ee06a7
+ -
    name: flannel
    clone_url: https://github.com/coreos/flannel.git
    version: 0.5.5
@@ -31,19 +38,40 @@ packages:
    branch: master
    commit_id: cb8284fb60737793596dd2fc98d9608d3d0d66f0
  -
+   name: gcc
+   clone_url: None
+   version: 4.8.5
+   release: 4.el7.centos.2
+   branch: None
+   commit_id: None
+ -
    name: ginger
    clone_url: https://github.com/open-power-host-os/ginger.git
    version: 2.3.0
-   release: 5.el7.centos
+   release: 7.el7.centos
    branch: hostos-devel
-   commit_id: fd044e599d16a1120102aa1bca17a314833b4400
+   commit_id: 59de2656226e73777d54eccdbc533957e15a1f72
  -
    name: gingerbase
    clone_url: https://github.com/open-power-host-os/gingerbase.git
    version: 2.2.1
-   release: 5.el7.centos
+   release: 7.el7.centos
    branch: hostos-devel
-   commit_id: 8296bfafd142fe2486f9d4935f098584cdd1b6a1
+   commit_id: 0f006534e799ba44ccfee5cb3af186b2998db9fa
+ -
+   name: golang
+   clone_url: https://github.com/golang/go.git
+   version: 1.7.1
+   release: 3.el7.centos
+   branch: release-branch.go1.7
+   commit_id: b67902fee7b56dd3235b2f489550c279248bacb9
+ -
+   name: hwdata
+   clone_url: https://git.fedorahosted.org/git/hwdata.git
+   version: 0.288
+   release: 1.el7.centos
+   branch: master
+   commit_id: 625a1194eaf9b764985ebec3a5da78dc71299238
  -
    name: iprutils
    clone_url: http://git.code.sf.net/p/iprdd/iprutils
@@ -55,23 +83,51 @@ packages:
    name: kernel
    clone_url: https://github.com/open-power-host-os/linux.git
    version: 4.9.0
-   release: 2.el7.centos
+   release: 3.el7.centos
    branch: hostos-devel
-   commit_id: 59349a3822819d26dca4e1ebe16cbca458a56b0b
+   commit_id: 0f8d0cf517868beba21f8b5cdb709f275ac9c7d0
  -
    name: kimchi
    clone_url: https://github.com/open-power-host-os/kimchi.git
    version: 2.3.0
-   release: 5.el7.centos
+   release: 7.el7.centos
    branch: hostos-devel
-   commit_id: f4934ca08d45760a16b4e39ebb2ee3704f64b445
+   commit_id: 9e98b5f63ffcc4b76d53aa3fd5536ceb969d9111
+ -
+   name: kubernetes
+   clone_url: https://github.com/kubernetes/kubernetes.git
+   version: 1.2.0
+   release: 0.21.git4a3f9c5.el7.centos
+   branch: None
+   commit_id: 4a3f9c5b19c7ff804cbc1bf37a15c044ca5d2353
  -
    name: libguestfs
-   clone_url: None
+   clone_url: https://github.com/libguestfs/libguestfs.git
    version: 1.28.1
    release: 1.55.el7.centos.4
    branch: None
    commit_id: None
+ -
+   name: librtas
+   clone_url: https://github.com/nfont/librtas.git
+   version: 1.4.1
+   release: 2.el7.centos
+   branch: master
+   commit_id: 3fe4911fa9e456e6cae2f314cff46894025b7fb9
+ -
+   name: libseccomp
+   clone_url: https://github.com/seccomp/libseccomp.git
+   version: 2.3.1
+   release: 1.el7.centos.1
+   branch: release-2.3
+   commit_id: eedd26dc59641878dabd771e2ff15e729a85ac69
+ -
+   name: libservicelog
+   clone_url: https://github.com/open-power-host-os/libservicelog.git
+   version: 1.1.16
+   release: 2.el7.centos
+   branch: hostos-devel
+   commit_id: 48875ee8614eeefaa3d5d8ff92fb424915738169
  -
    name: libvirt
    clone_url: https://github.com/open-power-host-os/libvirt.git
@@ -80,6 +136,13 @@ packages:
    branch: hostos-devel
    commit_id: ddccbf6072a3f95e053cc9934d1178cb1acd2aa7
  -
+   name: libvpd
+   clone_url: https://github.com/open-power-host-os/libvpd.git
+   version: 2.2.5
+   release: 4.el7.centos
+   branch: hostos-devel
+   commit_id: 8cb3fe06b8d2e6125235eb1973e624a0fb12837c
+ -
    name: linux-firmware
    clone_url: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
    version: 20150904
@@ -87,12 +150,19 @@ packages:
    branch: master
    commit_id: 70a3c2adcce7c51e4f26e929d666237904f6fd31
  -
+   name: lshw
+   clone_url: https://github.com/lyonel/lshw.git
+   version: B.02.18
+   release: 1
+   branch: master
+   commit_id: f9bdcc342d525f8504b81a9a344d58f57aa9b5dc
+ -
    name: lsvpd
    clone_url: https://github.com/open-power-host-os/lsvpd.git
    version: 1.7.7
-   release: 5.el7.centos
-   branch: master
-   commit_id: 22bf31003c097d993e73d22e745c36d16b5f85a2
+   release: 6.el7.centos
+   branch: hostos-devel
+   commit_id: 3a5f5e1fdf82ebc6efdda4cfc51fd24776bad8be
  -
    name: noVNC
    clone_url: https://github.com/kanaka/noVNC.git
@@ -100,6 +170,20 @@ packages:
    release: 5.el7.centos
    branch: master
    commit_id: fc00821eba469641c6c94706726c3d78e46460a2
+ -
+   name: oci-register-machine
+   clone_url: https://github.com/projectatomic/oci-register-machine.git
+   version: 0
+   release: 1.8.gitaf6c129.el7.centos
+   branch: master
+   commit_id: fcdbff00c6d5ac32c599d1dff96906bfe027638a
+ -
+   name: oci-systemd-hook
+   clone_url: https://github.com/projectatomic/oci-systemd-hook.git
+   version: 0.1.4
+   release: 4.git41491a3.el7.centos
+   branch: master
+   commit_id: a9c551a95252aef3f94ec1761486219644506a59
  -
    name: powerpc-utils
    clone_url: https://github.com/nfont/powerpc-utils.git
@@ -112,15 +196,15 @@ packages:
    clone_url: https://github.com/open-power-host-os/ppc64-diag.git
    version: 2.7.1
    release: 2.el7.centos
-   branch: master
-   commit_id: 92ea7c82a54f4c1d1fe25677f205ebca781e53c3
+   branch: hostos-devel
+   commit_id: d56f7f1367bd6634605fd65997170252696178fa
  -
    name: qemu
    clone_url: https://github.com/open-power-host-os/qemu.git
    version: 2.7.0
-   release: 4.el7.centos
+   release: 5.el7.centos
    branch: hostos-devel
-   commit_id: afb0d801d4a670f0f03daea0d410753d7bc06bac
+   commit_id: 697c0e654945ebe7e2dba6268243a6498b2578ff
  -
    name: servicelog
    clone_url: https://github.com/open-power-host-os/servicelog.git
@@ -146,8 +230,8 @@ packages:
    name: wok
    clone_url: https://github.com/open-power-host-os/wok.git
    version: 2.3.0
-   release: 5.el7.centos
+   release: 6.el7.centos
    branch: hostos-devel
-   commit_id: 8d8db1384e01224de28944330da5541bd99ac3f0
+   commit_id: e8d1bfe1fae19bbda8bdd17edc3981caa124911b
 
 ---
