@@ -1,0 +1,211 @@
+---
+title: OpenPOWER Host OS release
+layout: release
+builds_commit: ec8aa3da38a18e6bdb83b48a3bbdeeeb7be9aaa4
+versions_commit: 7dc1ee143cc7d6e61973900103d240d9207ab985
+packages:
+ -
+   name: SLOF
+   clone_url: https://github.com/open-power-host-os/slof.git
+   version: 20160525
+   release: 3.gitb2d56f3.el7.centos
+   branch: powerkvm-v3.1.1
+   commit_id: b2d56f3a322f2c6375a87d11274fbae1cde66ae8
+ -
+   name: crash
+   clone_url: https://github.com/crash-utility/crash.git
+   version: 7.1.6
+   release: 1.git64531dc.el7.centos
+   branch: master
+   commit_id: 64531dc850f2840cedafa143fe051d2cfeae5247
+ -
+   name: docker
+   clone_url: https://github.com/docker/docker.git
+   version: 1.12.2
+   release: 47.el7.centos
+   branch: 1.12.x
+   commit_id: bb80604a0b200140a440675348c848a137a1b2e2
+ -
+   name: docker-swarm
+   clone_url: https://github.com/docker/swarm.git
+   version: 1.1.0
+   release: 1.gita0fd82b
+   branch: master
+   commit_id: a0fd82b90932741bda54245e990df433a9ee06a7
+ -
+   name: flannel
+   clone_url: https://github.com/coreos/flannel.git
+   version: 0.5.5
+   release: 1.gitcb8284f.el7.centos
+   branch: master
+   commit_id: cb8284fb60737793596dd2fc98d9608d3d0d66f0
+ -
+   name: gcc
+   clone_url: 
+   version: 4.8.5
+   release: 12.svn240558.el7.centos
+   branch: 
+   commit_id: 
+ -
+   name: ginger
+   clone_url: https://github.com/open-power-host-os/ginger.git
+   version: 2.3.0
+   release: 14.gitc840545.el7.centos
+   branch: hostos-devel
+   commit_id: c840545a470e9b55e2bbb4d6a048ed67229c4891
+ -
+   name: ginger-base
+   clone_url: https://github.com/open-power-host-os/gingerbase.git
+   version: 2.2.1
+   release: 11.git593bf27.el7.centos
+   branch: hostos-devel
+   commit_id: 593bf276645a98717586c2b532e379b3cf050810
+ -
+   name: golang
+   clone_url: https://github.com/golang/go.git
+   version: 1.7.1
+   release: 3.el7.centos
+   branch: release-branch.go1.7
+   commit_id: b67902fee7b56dd3235b2f489550c279248bacb9
+ -
+   name: golang-github-russross-blackfriday
+   clone_url: 
+   version: 1.2
+   release: 5s.git5f33e7b.el7.centos
+   branch: 
+   commit_id: 
+ -
+   name: golang-github-shurcooL-sanitized_anchor_name
+   clone_url: 
+   version: 0
+   release: 0.1.sgit1dba4b3.el7.centos
+   branch: 
+   commit_id: 
+ -
+   name: hwdata
+   clone_url: https://git.fedorahosted.org/git/hwdata.git
+   version: 0.288
+   release: 1.git625a119.el7.centos
+   branch: master
+   commit_id: 625a1194eaf9b764985ebec3a5da78dc71299238
+ -
+   name: kernel
+   clone_url: https://github.com/open-power-host-os/linux.git
+   version: 4.10.0
+   release: 1.rc6.gitbbbdfd8.el7.centos
+   branch: hostos-devel
+   commit_id: bbbdfd8db1fce91da2c7625742f80c268d6671be
+ -
+   name: kimchi
+   clone_url: https://github.com/open-power-host-os/kimchi.git
+   version: 2.3.0
+   release: 13.gitec17672.el7.centos
+   branch: hostos-devel
+   commit_id: ec17672b98a4723aa42c6fc114b3d428b66dcab4
+ -
+   name: kubernetes
+   clone_url: https://github.com/openshift/kubernetes.git
+   version: 1.2.0
+   release: 0.21.git4a3f9c5.el7.centos
+   branch: release-1.2-stable-20160316
+   commit_id: 4a3f9c5b19c7ff804cbc1bf37a15c044ca5d2353
+ -
+   name: libnl3
+   clone_url: git://git.infradead.org/users/tgr/libnl.git
+   version: 3.2.28
+   release: 2.el7.centos
+   branch: libnl3_2_28
+   commit_id: 656f381ccf58785319bb0236595c896125d33ed0
+ -
+   name: librtas
+   clone_url: https://github.com/nfont/librtas.git
+   version: 1.4.1
+   release: 2.git3fe4911.el7.centos
+   branch: master
+   commit_id: 3fe4911fa9e456e6cae2f314cff46894025b7fb9
+ -
+   name: libservicelog
+   clone_url: https://github.com/open-power-host-os/libservicelog.git
+   version: 1.1.16
+   release: 2.git48875ee.el7.centos
+   branch: hostos-devel
+   commit_id: 48875ee8614eeefaa3d5d8ff92fb424915738169
+ -
+   name: libvirt
+   clone_url: https://github.com/open-power-host-os/libvirt.git
+   version: 2.2.0
+   release: 6.gitddccbf6.el7.centos
+   branch: hostos-devel
+   commit_id: ddccbf6072a3f95e053cc9934d1178cb1acd2aa7
+ -
+   name: libvpd
+   clone_url: https://github.com/open-power-host-os/libvpd.git
+   version: 2.2.5
+   release: 4.git8cb3fe0.el7.centos
+   branch: hostos-devel
+   commit_id: 8cb3fe06b8d2e6125235eb1973e624a0fb12837c
+ -
+   name: lshw
+   clone_url: https://github.com/lyonel/lshw.git
+   version: B.02.18
+   release: 1.gitf9bdcc3
+   branch: master
+   commit_id: f9bdcc342d525f8504b81a9a344d58f57aa9b5dc
+ -
+   name: lsvpd
+   clone_url: https://github.com/open-power-host-os/lsvpd.git
+   version: 1.7.7
+   release: 6.git3a5f5e1.el7.centos
+   branch: hostos-devel
+   commit_id: 3a5f5e1fdf82ebc6efdda4cfc51fd24776bad8be
+ -
+   name: novnc
+   clone_url: https://github.com/kanaka/noVNC.git
+   version: 0.5.1
+   release: 5.gitfc00821.el7.centos
+   branch: master
+   commit_id: fc00821eba469641c6c94706726c3d78e46460a2
+ -
+   name: ppc64-diag
+   clone_url: https://github.com/open-power-host-os/ppc64-diag.git
+   version: 2.7.2
+   release: 1.gitd56f7f1.el7.centos
+   branch: hostos-devel
+   commit_id: d56f7f1367bd6634605fd65997170252696178fa
+ -
+   name: qemu
+   clone_url: https://github.com/open-power-host-os/qemu.git
+   version: 2.7.0
+   release: 9.git169a53e.el7.centos
+   branch: hostos-devel
+   commit_id: 169a53efae579f51022612577e7b17c8aead237c
+ -
+   name: servicelog
+   clone_url: https://github.com/open-power-host-os/servicelog.git
+   version: 1.1.14
+   release: 4.git7d33cd3.el7.centos
+   branch: hostos-devel
+   commit_id: 7d33cd33507d6f11fb86c4bc13d752cb122759f7
+ -
+   name: sos
+   clone_url: https://github.com/open-power-host-os/sos.git
+   version: 3.3
+   release: 18.git52dd1db.el7.centos
+   branch: hostos-devel
+   commit_id: 52dd1dbc52783e622ca0a96e3e9c182bb26887fe
+ -
+   name: systemtap
+   clone_url: git://sourceware.org/git/systemtap.git
+   version: 3.0
+   release: 8.el7.centos
+   branch: master
+   commit_id: 616ec7a0b916df7785d911b824c3df6eb022b213
+ -
+   name: wok
+   clone_url: https://github.com/open-power-host-os/wok.git
+   version: 2.3.0
+   release: 11.gitb0cf429.el7.centos
+   branch: hostos-devel
+   commit_id: b0cf42955ce44d4981e14e9485872ecbea33edff
+
+---
