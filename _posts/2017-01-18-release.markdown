@@ -1,5 +1,6 @@
 ---
 title: OpenPOWER Host OS release
+release_tag: 2.0-alpha-2017-01-18
 layout: release
 builds_commit: c10087b60bc66087dee9d47584426d01ffd51c98
 versions_commit: 5987bd8ef60cef770b180dfd82dc9768c0251910
