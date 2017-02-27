@@ -11,7 +11,7 @@ title: OpenPOWER Host OS Builds
 <section>
     {% for post in site.posts %}
     <div class="release_listing">
-        <h2> {{ post.date | date: "%Y-%m-%d" }} release</h2>
+        <h2> {{ post.release_tag }} release</h2>
         <a href="{{ post.url | prepend: site.baseurl }}">More information</a>
     </div>
     {% endfor %}
