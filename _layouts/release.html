@@ -1,37 +1,5 @@
 ---
 layout: default
 ---
-
-<article class="release release">
-    <header class="release_header">
-        <h1 class="release_title">{{ page.title }}</h1>
-        <p class="release_meta">Release: {{ page.release_tag }}</p>
-    </header>
-
-    <section class="release-content">
-        <p class="release_meta">Builds repository commit ID: {{ page.builds_commit }}</p>
-        <p class="release_meta">Versions repository commit ID: {{ page.versions_commit }}</p>
-        <table>
-            <thead>
-                <tr>
-                    <th>Package name</th>
-                    <th>Version</th>
-                    <th>Release</th>
-                    <th>Branch</th>
-                    <th>Commit ID</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for package in page.packages %}
-                <tr>
-                    <td> <a href="{{ package.clone_url}}">{{ package.name }}</a> </td>
-                    <td> {{ package.version }} </td>
-                    <td> {{ package.release }} </td>
-                    <td> {{ package.branch }} </td>
-                    <td> {{ package.commit_id }} </td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </section>
-</article>
+{% capture release_markdown %}{% include release.md %}{% endcapture %}
+{{ release_markdown | markdownify }}
