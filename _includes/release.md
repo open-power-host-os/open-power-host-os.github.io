@@ -11,14 +11,14 @@ Versions repository commit ID: {{ page.versions_commit }}
 # Components
 
 <style type="text/css">
-.main-item{border-style:solid;border-width:0px;border-top-width:1px;border-bottom-width:1px;}
+.main-item{background-color:#CCCCCC;border-style:solid;border-width:0px;border-top-width:1px;border-bottom-width:1px;}
+.secondary-item{border-style:solid;border-width:0px;border-top-width:0px;border-bottom-width:0px;white-space:nowrap;}
 </style>
+
 <table>
     <thead>
         <tr>
-            <th>Package name</th>
-            <th>Version</th>
-            <th>Release</th>
+            <th>Repository</th>
             <th>Branch</th>
             <th>Commit ID</th>
         </tr>
@@ -26,12 +26,17 @@ Versions repository commit ID: {{ page.versions_commit }}
     <tbody>
         {% for package in page.packages %}
         <tr>
-            <td class="main-item"> <a href="{{ package.clone_url}}">{{ package.name }}</a> </td>
-            <td class="main-item"> {{ package.version }} </td>
-            <td class="main-item"> {{ package.release }} </td>
-            <td class="main-item"> {{ package.branch }} </td>
-            <td class="main-item"> {{ package.commit_id }} </td>
+            <td class="main-item" colspan="3"> {{ package.name }}-{{ package.version }}-{{ package.release }} </td>
         </tr>
+        {% for source in package.sources %}
+        {% assign project_url = source.src | replace: 'svn://', 'http://' %}
+        {% assign project_name = source.src | split: '/' | last | replace: '.git', '' %}
+        <tr>
+            <td class="secondary-item"> <a href="{{ project_url }}">{{ project_name }}</a> </td>
+            <td class="secondary-item"> {{ source.branch }} </td>
+            <td class="secondary-item"> {{ source.commit_id }} </td>
+        </tr>
+        {% endfor %}
         {% endfor %}
     </tbody>
 </table>
