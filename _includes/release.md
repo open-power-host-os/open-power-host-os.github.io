@@ -10,6 +10,9 @@ Versions repository commit ID: {{ page.versions_commit }}
 
 # Components
 
+<style type="text/css">
+.main-item{border-style:solid;border-width:0px;border-top-width:1px;border-bottom-width:1px;}
+</style>
 <table>
     <thead>
         <tr>
@@ -23,11 +26,11 @@ Versions repository commit ID: {{ page.versions_commit }}
     <tbody>
         {% for package in page.packages %}
         <tr>
-            <td> <a href="{{ package.clone_url}}">{{ package.name }}</a> </td>
-            <td> {{ package.version }} </td>
-            <td> {{ package.release }} </td>
-            <td> {{ package.branch }} </td>
-            <td> {{ package.commit_id }} </td>
+            <td class="main-item"> <a href="{{ package.clone_url}}">{{ package.name }}</a> </td>
+            <td class="main-item"> {{ package.version }} </td>
+            <td class="main-item"> {{ package.release }} </td>
+            <td class="main-item"> {{ package.branch }} </td>
+            <td class="main-item"> {{ package.commit_id }} </td>
         </tr>
         {% endfor %}
     </tbody>
