@@ -1,9 +1,9 @@
 ---
 title: OpenPOWER Host OS release
-release_tag: 2.0-beta-2017-03-31
+release_tag: 2.0-2017-03-31
 layout: release
 builds_commit: bdaa60c69ae8325546a14c3eae8a58bdf9e3c88e
-versions_commit: 1c870ac343fcdf62c6b4023ed35516977f5aa3e5
+versions_commit: 919e88bfb49a3e246cb89b2d037fa1859b52e8ea
 packages:
  -
    name: SLOF
@@ -170,7 +170,7 @@ packages:
    name: open-power-host-os
    clone_url: 
    version: 2.0
-   release: 8.beta.el7.centos
+   release: 9.el7.centos
    branch: 
    commit_id: 
  -
