@@ -6,6 +6,10 @@ Builds repository commit ID: {{ page.builds_commit }}
 
 Versions repository commit ID: {{ page.versions_commit }}
 
+{{ page.content }}
+
+# Components
+
 <table>
     <thead>
         <tr>
