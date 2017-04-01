@@ -217,3 +217,30 @@ packages:
    commit_id: 7f5e0aea58ce406eccbaa46d6326ab883154950d
 
 ---
+
+# Highlights for this release:
+
+- Kernel 4.10.0
+  - Initial P9 enablement
+- Qemu 2.8
+  - Initial P9 support (still under development)
+  - Support for up to 1024 vCPUs
+  - Lots of CVE fixes
+- Kimchi 2.3.0
+  - Initial s390x systems support
+  - Guest CPU hot plug and unplug
+  - Live migration over RDMA
+  - Live snapshot support
+  - Bug fixes
+- Wok 2.3.0
+  - Plugins management
+  - Block authentication request after too many failures
+  - Bug fixes
+- Ginger 2.3.0 bug fixes
+- Gingerbase 2.2.1
+  - Initial Gentoo support
+  - Bug fixes
+- PCI passthrough improvements
+- Build scripts enhancements
+- New packages: libnl3, golang-github-shurcooL-sanitized_anchor_name,
+  golang-github-russross-blackfriday
