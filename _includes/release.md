@@ -13,6 +13,7 @@ Versions repository commit ID: {{ page.versions_commit }}
 <style type="text/css">
 .main-item{background-color:#CCCCCC;border-style:solid;border-width:0px;border-top-width:1px;border-bottom-width:1px;}
 .secondary-item{border-style:solid;border-width:0px;border-top-width:0px;border-bottom-width:0px;white-space:nowrap;}
+.monospaced{font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace;}
 tr:hover{background-color:#DDDDDD}
 </style>
 
@@ -35,7 +36,7 @@ tr:hover{background-color:#DDDDDD}
         <tr>
             <td class="secondary-item"> <a href="{{ project_url }}">{{ project_name }}</a> </td>
             <td class="secondary-item"> {{ source.branch }} </td>
-            <td class="secondary-item"> {{ source.commit_id }} </td>
+            <td class="secondary-item monospaced"> {{ source.commit_id }} </td>
         </tr>
         {% endfor %}
         {% endfor %}
