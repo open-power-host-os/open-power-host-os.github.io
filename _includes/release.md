@@ -13,6 +13,7 @@ Versions repository commit ID: {{ page.versions_commit }}
 <style type="text/css">
 .main-item{background-color:#CCCCCC;border-style:solid;border-width:0px;border-top-width:1px;border-bottom-width:1px;}
 .secondary-item{border-style:solid;border-width:0px;border-top-width:0px;border-bottom-width:0px;white-space:nowrap;}
+tr:hover{background-color:#DDDDDD}
 </style>
 
 <table>
