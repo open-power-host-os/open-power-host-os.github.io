@@ -2,6 +2,7 @@
 title: OpenPOWER Host OS release
 release_tag: 2.0-2017-03-31
 layout: release
+categories: tags stable
 builds_commit: bdaa60c69ae8325546a14c3eae8a58bdf9e3c88e
 versions_commit: 919e88bfb49a3e246cb89b2d037fa1859b52e8ea
 packages:
