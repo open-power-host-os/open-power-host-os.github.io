@@ -6,6 +6,11 @@ Builds repository commit ID: {{ page.builds_commit }}
 
 Versions repository commit ID: {{ page.versions_commit }}
 
+{% if page.highlights %}
+# Highlights for this release:
+{{ page.highlights }}
+{% endif %}
+
 {{ page.content }}
 
 # Components
