@@ -1,4 +1,8 @@
 theme: jekyll-theme-slate
+# jekyll-theme-slate variables
+title: " "
+description: " "
+#
 defaults:
   - scope:
       path: ""
