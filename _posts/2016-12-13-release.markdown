@@ -2,6 +2,7 @@
 title: OpenPOWER Host OS release
 release_tag: 1.5-2016-12-13
 layout: release
+categories: tags stable
 packages:
  -
    name: SLOF

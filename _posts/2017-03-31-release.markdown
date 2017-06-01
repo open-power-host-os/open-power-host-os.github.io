@@ -2,6 +2,7 @@
 title: OpenPOWER Host OS release
 release_tag: 2.0-2017-03-31
 layout: release
+categories: tags stable
 builds_commit: bdaa60c69ae8325546a14c3eae8a58bdf9e3c88e
 versions_commit: 919e88bfb49a3e246cb89b2d037fa1859b52e8ea
 packages:
@@ -234,31 +235,29 @@ packages:
     src: https://github.com/open-power-host-os/wok.git
   version: 2.3.0
 
+highlights: |
+    - Kernel 4.10.0
+      - Initial P9 enablement
+    - Qemu 2.8
+      - Initial P9 support (still under development)
+      - Support for up to 1024 vCPUs
+      - Lots of CVE fixes
+    - Kimchi 2.3.0
+      - Initial s390x systems support
+      - Guest CPU hot plug and unplug
+      - Live migration over RDMA
+      - Live snapshot support
+      - Bug fixes
+    - Wok 2.3.0
+      - Plugins management
+      - Block authentication request after too many failures
+      - Bug fixes
+    - Ginger 2.3.0 bug fixes
+    - Gingerbase 2.2.1
+      - Initial Gentoo support
+      - Bug fixes
+    - PCI passthrough improvements
+    - Build scripts enhancements
+    - New packages: libnl3, golang-github-shurcooL-sanitized_anchor_name,
+      golang-github-russross-blackfriday
 ---
-
-# Highlights for this release:
-
-- Kernel 4.10.0
-  - Initial P9 enablement
-- Qemu 2.8
-  - Initial P9 support (still under development)
-  - Support for up to 1024 vCPUs
-  - Lots of CVE fixes
-- Kimchi 2.3.0
-  - Initial s390x systems support
-  - Guest CPU hot plug and unplug
-  - Live migration over RDMA
-  - Live snapshot support
-  - Bug fixes
-- Wok 2.3.0
-  - Plugins management
-  - Block authentication request after too many failures
-  - Bug fixes
-- Ginger 2.3.0 bug fixes
-- Gingerbase 2.2.1
-  - Initial Gentoo support
-  - Bug fixes
-- PCI passthrough improvements
-- Build scripts enhancements
-- New packages: libnl3, golang-github-shurcooL-sanitized_anchor_name,
-  golang-github-russross-blackfriday
