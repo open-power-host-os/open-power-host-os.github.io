@@ -62,7 +62,7 @@ latest_stable.release_tag }}]({{ latest_stable.url }}).
 
 ### Getting Started
 
-The [Quick Start guide]({{ builds_repo }}/README.md) explains how you
+The [Quick Start guide]({{ builds_repo }}/blob/master/README.md) explains how you
 can create packages ready for installation on CentOS and optionally a
 bootable Host OS ISO file.
 
@@ -98,4 +98,4 @@ email:
 ---
 \\
 Other references:\\
-1- [https://developer.ibm.com/open/openprojects/openpower-host-os/]()
+1- [https://developer.ibm.com/open/openprojects/openpower-host-os/](https://developer.ibm.com/open/openprojects/openpower-host-os/)
