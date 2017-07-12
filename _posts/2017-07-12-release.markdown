@@ -1,6 +1,7 @@
 ---
 builds_commit: 45be266a76a73d3f1247d240768a6db7e924c98c
 layout: release
+categories: tags stable
 packages:
 - name: SLOF
   release: 2.git1903174.el7.centos
@@ -247,5 +248,16 @@ packages:
 release_tag: 2.5-2017-07-12
 title: OpenPOWER Host OS release
 versions_commit: 021a82297614e8165abeec07faa23ac37a036e4b
+highlights: |
+    - Power9 KVM Host support (with continued support for Power8).
+    - Power9 native interrupt controller (aka XIVE) support for bare metal (w/Power8 interrupt controller (XICS) emulation for KVM guests).
+    - Memory Hotplug support for KVM guests (Host OS guest only).
+    - Libvirt: updates needed for basic Power9 support - Power9 guest on Power9 host.
+    - Power9 hardware counter (performance counters) support.
 
+    Known issues:
+
+    - Memory Hot Unplug for KVM guests does not work at this time.
+    - Live migration on Power9 DD1 hardware does not work due to CPU timebase offset defect.
+    - Can not boot p8-compat guests on Power9 due to qemu issues.
 ---
