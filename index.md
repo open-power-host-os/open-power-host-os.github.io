@@ -53,7 +53,8 @@ schedules of individual components.
 Development versions are periodically tagged in git, built and
 validated via a [test
 suite](https://github.com/open-power-host-os/tests). The latest tested
-tag is [{{ latest_tag.release_tag }}]({{ latest_tag.url }}).
+tag is [{{ latest_tag.release_tag }}]({{ latest_tag.url }}). The full
+list of tags is [here](/tags).
 
 About every 6 months a tag containing a more significant set of
 features is promoted to stable. The current stable tag is [{{
