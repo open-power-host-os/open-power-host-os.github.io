@@ -37,8 +37,7 @@ components is (without dependencies):
 [lsvpd](https://github.com/open-power-host-os/lsvpd.git)\\
 [libservicelog](https://github.com/open-power-host-os/libservicelog.git)\\
 [servicelog](https://github.com/open-power-host-os/servicelog.git)\\
-[SLOF ](https://github.com/open-power-host-os/slof.git)\\
-[sosreport](https://github.com/open-power-host-os/sos.git)
+[SLOF ](https://github.com/open-power-host-os/slof.git)
 
 
 ### Versioning
