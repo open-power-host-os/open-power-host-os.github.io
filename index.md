@@ -32,10 +32,6 @@ components is (without dependencies):
 [kernel](https://github.com/open-power-host-os/linux.git)\\
 [qemu](https://github.com/open-power-host-os/qemu.git)\\
 [libvirt](https://github.com/open-power-host-os/libvirt.git)\\
-[kimchi](https://github.com/open-power-host-os/kimchi.git)\\
-[wok](https://github.com/open-power-host-os/wok.git)\\
-[gingerbase](https://github.com/open-power-host-os/gingerbase.git)\\
-[ginger](https://github.com/open-power-host-os/ginger.git)\\
 [ppc64-diag](https://github.com/open-power-host-os/ppc64-diag.git)\\
 [libvpd](https://github.com/open-power-host-os/libvpd.git)\\
 [lsvpd](https://github.com/open-power-host-os/lsvpd.git)\\
