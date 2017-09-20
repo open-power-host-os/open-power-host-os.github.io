@@ -32,17 +32,12 @@ components is (without dependencies):
 [kernel](https://github.com/open-power-host-os/linux.git)\\
 [qemu](https://github.com/open-power-host-os/qemu.git)\\
 [libvirt](https://github.com/open-power-host-os/libvirt.git)\\
-[kimchi](https://github.com/open-power-host-os/kimchi.git)\\
-[wok](https://github.com/open-power-host-os/wok.git)\\
-[gingerbase](https://github.com/open-power-host-os/gingerbase.git)\\
-[ginger](https://github.com/open-power-host-os/ginger.git)\\
 [ppc64-diag](https://github.com/open-power-host-os/ppc64-diag.git)\\
 [libvpd](https://github.com/open-power-host-os/libvpd.git)\\
 [lsvpd](https://github.com/open-power-host-os/lsvpd.git)\\
 [libservicelog](https://github.com/open-power-host-os/libservicelog.git)\\
 [servicelog](https://github.com/open-power-host-os/servicelog.git)\\
-[SLOF ](https://github.com/open-power-host-os/slof.git)\\
-[sosreport](https://github.com/open-power-host-os/sos.git)
+[SLOF ](https://github.com/open-power-host-os/slof.git)
 
 
 ### Versioning
@@ -50,11 +45,11 @@ components is (without dependencies):
 The project as a whole has an independent versioning not tied to the
 schedules of individual components.
 
-Development versions are periodically tagged in git, built and
-validated via a [test
+Development versions are periodically built and validated via a [test
 suite](https://github.com/open-power-host-os/tests). The latest tested
-tag is [{{ latest_tag.release_tag }}]({{ latest_tag.url }}). The full
-list of tags is [here](/tags).
+tag is [{{ latest_devel.release_tag }}]({{ latest_devel.url }}). The full
+list of development tags is [here](/tags/devel). For released tags, look
+[here](/tags/release).
 
 About every 6 months a tag containing a more significant set of
 features is promoted to stable. The current stable tag is [{{
