@@ -1,0 +1,210 @@
+---
+builds_commit: f44675eda906d8c7bf491ff4a7978fc5c2e6acc5
+categories: tags release
+layout: release
+packages:
+- name: kernel
+  release: 3.rc3.gitec0d270.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: ec0d270432ceaa119dcc0d29206683d75b33ec69
+    src: https://github.com/open-power-host-os/linux.git
+  version: 4.13.0
+- name: golang
+  release: 5.el7.centos
+  sources:
+  - branch: release-branch.go1.7
+    commit_id: b67902fee7b56dd3235b2f489550c279248bacb9
+    src: https://github.com/golang/go.git
+  version: 1.7.1
+- name: sos
+  release: 1.git8523982.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 852398227be8f1c78c70e9e054cfdef3315f6d3b
+    src: https://github.com/open-power-host-os/sos.git
+  version: '3.4'
+- name: libvpd
+  release: 7.git767b629.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 767b62965c2cec6cee0d11f2b688e89706f20ea6
+    src: https://github.com/open-power-host-os/libvpd.git
+  version: 2.2.5
+- name: lshw
+  release: 3.gitf9bdcc3
+  sources:
+  - branch: master
+    commit_id: f9bdcc342d525f8504b81a9a344d58f57aa9b5dc
+    src: https://github.com/lyonel/lshw.git
+  version: B.02.18
+- name: qemu
+  release: 1.gitc334a4e.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: c334a4eee787fb8e9874b713b8c9ca35ee1e557a
+    src: https://github.com/open-power-host-os/qemu.git
+  version: 2.10.0
+- name: ppc64-diag
+  release: 1.git2e89648.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 2e8964803a32f59f258008d4b278af38ded40b05
+    src: https://github.com/open-power-host-os/ppc64-diag.git
+  version: 2.7.4
+- name: open-power-host-os
+  release: 14.alpha.el7.centos
+  sources: []
+  version: '3.0'
+- name: gcc
+  release: 17.svn240558.el7.centos
+  sources:
+  - branch: redhat/gcc-4_8-branch@240558
+    commit_id: 79a21739f1484185ecea2200ccb172e129ab4073
+    src: https://github.com/open-power-host-os/gcc.git
+  version: 4.8.5
+- name: golang-github-russross-blackfriday
+  release: 8.git5f33e7b.el7.centos
+  sources:
+  - branch: master
+    commit_id: 5f33e7b7878355cd2b7e6b8eefc48a5472c69f70
+    src: https://github.com/russross/blackfriday
+  version: '1.2'
+- name: hwdata
+  release: 3.git625a119.el7.centos
+  sources:
+  - branch: master
+    commit_id: 625a1194eaf9b764985ebec3a5da78dc71299238
+    src: https://github.com/vcrhonek/hwdata.git
+  version: '0.288'
+- name: servicelog
+  release: 8.git3955e85.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 3955e8580ccad12de717b659f7d1c2aa2e05d6e5
+    src: https://github.com/open-power-host-os/servicelog.git
+  version: 1.1.14
+- name: SLOF
+  release: 1.git685af54.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 685af54d8a47a42d9d06c51be45870f6f210a0dc
+    src: https://github.com/open-power-host-os/slof.git
+  version: '20170724'
+- name: docker-swarm
+  release: 3.gita0fd82b
+  sources:
+  - branch: master
+    commit_id: a0fd82b90932741bda54245e990df433a9ee06a7
+    src: https://github.com/docker/swarm.git
+  version: 1.1.0
+- name: container-selinux
+  release: 3.el7.centos
+  sources:
+  - branch: ''
+    commit_id: 583ca403b7d054594e904fdb2839ea4103e15a9a
+    src: https://github.com/projectatomic/container-selinux
+  version: '2.17'
+- name: golang-github-shurcooL-sanitized_anchor_name
+  release: 3.git1dba4b3.el7.centos
+  sources:
+  - branch: master
+    commit_id: 1dba4b3954bc059efc3991ec364f9f9a35f597d2
+    src: https://github.com/shurcooL/sanitized_anchor_name
+  version: '0'
+- name: libnl3
+  release: 6.el7.centos
+  sources:
+  - branch: libnl3_2_28
+    commit_id: 656f381ccf58785319bb0236595c896125d33ed0
+    src: git://git.infradead.org/users/tgr/libnl.git
+  version: 3.2.28
+- name: lsvpd
+  release: 1.gitb5542ab.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: b5542ab3d1091f812e658685ef147d25cf228ce9
+    src: https://github.com/open-power-host-os/lsvpd.git
+  version: 1.7.8
+- name: skopeo
+  release: 3.gite802625.el7.centos
+  sources:
+  - branch: ''
+    commit_id: e802625b7cb7f4af9ab77bd2be9eb441ff2f28a2
+    src: https://github.com/projectatomic/skopeo.git
+  version: 0.1.20
+- name: systemtap
+  release: 5.git39b62b4.el7.centos
+  sources:
+  - branch: master
+    commit_id: 39b62b4e3d10961ccab009e708f406a6fddec3a2
+    src: git://sourceware.org/git/systemtap.git
+  version: '3.1'
+- name: crash
+  release: 3.git64531dc.el7.centos
+  sources:
+  - branch: master
+    commit_id: 64531dc850f2840cedafa143fe051d2cfeae5247
+    src: https://github.com/crash-utility/crash.git
+  version: 7.1.6
+- name: kubernetes
+  release: 0.23.git4a3f9c5.el7.centos
+  sources:
+  - branch: release-1.2-stable-20160316
+    commit_id: 4a3f9c5b19c7ff804cbc1bf37a15c044ca5d2353
+    src: https://github.com/openshift/kubernetes.git
+  - branch: release-1.2
+    commit_id: ef1caba064de975387860175c3138aad432cf356
+    src: https://github.com/openshift/origin.git
+  - branch: master
+    commit_id: 18bb93d3509bd13a15639969c8b0ebe39a7f9b50
+    src: https://github.com/kubernetes/contrib.git
+  version: 1.2.0
+- name: libvirt
+  release: 3.gitdd9401b.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: dd9401b3cbda734a2ef91927792d2c05398249bb
+    src: https://github.com/open-power-host-os/libvirt.git
+  version: 3.6.0
+- name: libservicelog
+  release: 2.git1e39e77.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 1e39e7736d216a3e424baf6602739226e4c07e19
+    src: https://github.com/open-power-host-os/libservicelog.git
+  version: 1.1.18
+- name: flannel
+  release: 3.gitcb8284f.el7.centos
+  sources:
+  - branch: master
+    commit_id: cb8284fb60737793596dd2fc98d9608d3d0d66f0
+    src: https://github.com/coreos/flannel.git
+  version: 0.5.5
+- name: docker
+  release: 8.gitae7d637.el7.centos
+  sources:
+  - branch: ''
+    commit_id: ae7d637fcad9be396e75af430405446f9e6ab099
+    src: https://github.com/projectatomic/docker.git
+  - branch: ''
+    commit_id: c9faba1908b8e77f7c7c443f26e3b3cb1450d1a0
+    src: https://github.com/projectatomic/docker-storage-setup.git
+  - branch: ''
+    commit_id: c5212546ab01b4b7b62caba888d298ab63f53984
+    src: https://github.com/projectatomic/docker-novolume-plugin.git
+  - branch: ''
+    commit_id: 994c35cbf7ae094d4cb1230b85631ecedd77b0d8
+    src: https://github.com/docker/v1.10-migrator.git
+  - branch: ''
+    commit_id: 3819cd61f5263275788f7279fe9d2bc13f086aa6
+    src: https://github.com/projectatomic/runc.git
+  - branch: ''
+    commit_id: 9f4539363c8edc73ae7bdd6ca30f83fc365bf9e1
+    src: https://github.com/projectatomic/containerd.git
+  version: 1.12.6
+release_tag: 3.0-alpha-2017-09-21
+title: OpenPOWER Host OS release
+versions_commit: f0ea91fb9f89a14df00a5e9e7a30209ef79ed7f7
+
+---
