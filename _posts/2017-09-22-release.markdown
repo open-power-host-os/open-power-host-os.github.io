@@ -1,6 +1,6 @@
 ---
 builds_commit: e3d95ca1a377d0d83045f407cc1e44ca07854d06
-categories: tags release
+categories: tags release stable
 layout: release
 packages:
 - name: open-power-host-os
@@ -132,8 +132,33 @@ packages:
     commit_id: 2e8964803a32f59f258008d4b278af38ded40b05
     src: https://github.com/open-power-host-os/ppc64-diag.git
   version: 2.7.4
-release_tag: 3.0-alpha-2017-09-22
+release_tag: 3.0-2017-09-22
 title: OpenPOWER Host OS release
 versions_commit: ef4dbf922a40fc7bef3b494eaac7d2b4047fd95b
+highlights: |
+    - Support for CentOS 7.4
+    - Fixed live migration failure "qemu-kvm: htab_load() bad index in htab stream (htab_shift=0)"
+    - Support transmission of DRC state for CPU and memory hotplug
+    - Virtualization support for RCU stall detector
+    - Fixed "virsh cpu-compare" failure "error: internal error: Host CPU does not support compatibility modes"
+    - Improved XIVE and XICS: POWER9 host running native XIVE and POWER9 guest running a new emulated XICS layer on top of KVM/QEMU
+    - Improved qemu compat modes for power8 and power9
+    - Improved libvirt sockets for guests
+    - Packages removed (installed from CentOS repositories from now on):
+      - container-selinux, crash
+      - docker
+      - flannel
+      - ginger, ginger-base, golang
+      - kimchi
+      - librtas, lshw
+      - novnc
+      - skopeo, sos
+      - wok
 
+    Known issues:
+
+    - Guests started by non-root users will hit a memory locking limit:
+        `cannot limit locked memory to 46137344: Operation not permitted`
+       This can be worked around by increasing the locked memory limit (e.g.: `ulimit -l 128000`)
+       For more information, see: https://github.com/open-power-host-os/qemu/issues/3 
 ---
