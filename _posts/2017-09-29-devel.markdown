@@ -132,8 +132,8 @@ packages:
     commit_id: 608507ea8ed81209204feacbbde40e234d261141
     src: https://github.com/open-power-host-os/ppc64-diag.git
   version: 2.7.4
-release_tag: 3.0-dev-2017-09-29
+release_tag: 3.5-dev-2017-09-29
 title: OpenPOWER Host OS release
-versions_commit: 43ca41f199ffb4b242b17a43639fffaa5c1f3dae
+versions_commit: 7bc189a4d404533a71554a5400f25785885716e0
 
 ---
