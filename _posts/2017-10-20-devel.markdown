@@ -4,16 +4,16 @@ categories: tags devel
 layout: release
 packages:
 - name: open-power-host-os
-  release: 2.dev.el7.centos
+  release: 3.dev.el7.centos
   sources: []
   version: '3.5'
 - name: kernel
-  release: 5.gitaf16eac.el7.centos
+  release: 1.rc4.gitb27fc5c.el7.centos
   sources:
   - branch: hostos-devel
-    commit_id: af16eacf79bdd9802d65a143cc89d235b2ceb1b0
+    commit_id: b27fc5c3f6d28f922a6fc2488104475bfc2c716c
     src: https://github.com/open-power-host-os/linux.git
-  version: 4.13.0
+  version: 4.14.0
 - name: gcc
   release: 17.svn240558.el7.centos
   sources:
@@ -134,6 +134,6 @@ packages:
   version: 2.7.4
 release_tag: 3.5-dev-2017-10-20
 title: OpenPOWER Host OS release
-versions_commit: 595a00f8178953781bcc876947a7e9085e8ac4c4
+versions_commit: e439a639782572f8eab452ffa9c2817d9c5f727a
 
 ---
