@@ -1,5 +1,5 @@
 ---
-builds_commit: 21d178b5fc7e4b84de5471673f3a19ac24297911
+builds_commit: 5f0c16f79b40ee93f23328d13f8dff3c9bf82ae8
 categories: tags devel
 layout: release
 packages:
@@ -134,6 +134,6 @@ packages:
   version: 2.7.4
 release_tag: 3.5-dev-2017-10-30
 title: OpenPOWER Host OS release
-versions_commit: e439a639782572f8eab452ffa9c2817d9c5f727a
+versions_commit: b17c83980fd84af89b3413f0115fecf1aaae00f1
 
 ---
