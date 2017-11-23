@@ -4,7 +4,7 @@ categories: tags devel
 layout: release
 packages:
 - name: open-power-host-os
-  release: 7.dev.el7.centos
+  release: 8.dev.el7.centos
   sources: []
   version: '3.5'
 - name: kernel
@@ -63,12 +63,12 @@ packages:
     src: https://github.com/open-power-host-os/servicelog.git
   version: 1.1.14
 - name: libvirt
-  release: 3.dev.gitdd9401b.el7.centos
+  release: 1.dev.git2c30e7b.el7.centos
   sources:
   - branch: hostos-devel
-    commit_id: dd9401b3cbda734a2ef91927792d2c05398249bb
+    commit_id: 2c30e7b25e4f7e2c6e4656cab5731d7eb90c464e
     src: https://github.com/open-power-host-os/libvirt.git
-  version: 3.6.0
+  version: 3.9.0
 - name: libvpd
   release: 8.dev.git7d959c5.el7.centos
   sources:
@@ -134,6 +134,6 @@ packages:
   version: 2.7.4
 release_tag: 3.5-dev-2017-11-23
 title: OpenPOWER Host OS release
-versions_commit: 62d466f9ec182928bb14d13fbe45c8c453d362b0
+versions_commit: e4aec57541f51976524365b1e700c4d32e2eb0a8
 
 ---
