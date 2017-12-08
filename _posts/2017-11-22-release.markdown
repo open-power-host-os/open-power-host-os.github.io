@@ -1,6 +1,6 @@
 ---
 builds_commit: 43c8a648797a239101934ffc64d5629b06ddbf64
-categories: tags release
+categories: tags release stable
 layout: release
 packages:
 - name: open-power-host-os
@@ -132,8 +132,11 @@ packages:
     commit_id: 608507ea8ed81209204feacbbde40e234d261141
     src: https://github.com/open-power-host-os/ppc64-diag.git
   version: 2.7.4
-release_tag: 3.5-alpha-2017-11-22
+release_tag: 2017-11-22
 title: OpenPOWER Host OS release
 versions_commit: dbab19914d8b96737ff6c2122c68af7644f15292
-
+highlights: |
+    - Kernel 4.14
+    - Systemtap 3.2
+    - Bug fixes
 ---
