@@ -1,6 +1,6 @@
 ---
 builds_commit: 43c8a648797a239101934ffc64d5629b06ddbf64
-categories: tags release
+categories: tags release stable
 layout: release
 packages:
 - name: open-power-host-os
@@ -132,8 +132,12 @@ packages:
     commit_id: 608507ea8ed81209204feacbbde40e234d261141
     src: https://github.com/open-power-host-os/ppc64-diag.git
   version: 2.7.4
-release_tag: 3.5-alpha-2017-12-20
+release_tag: 2017-12-20
 title: OpenPOWER Host OS release
 versions_commit: 4e8d7c3004e50f7a707edcfa2bea831880e0e65e
-
+highlights: |
+    - Kernel 4.14
+    - Qemu 2.11
+    - Libvirt 3.9
+    - Bug fixes
 ---
