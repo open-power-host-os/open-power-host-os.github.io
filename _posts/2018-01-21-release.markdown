@@ -1,6 +1,6 @@
 ---
 builds_commit: 43c8a648797a239101934ffc64d5629b06ddbf64
-categories: tags release
+categories: tags release stable
 layout: release
 packages:
 - name: open-power-host-os
@@ -125,8 +125,10 @@ packages:
     commit_id: 608507ea8ed81209204feacbbde40e234d261141
     src: https://github.com/open-power-host-os/ppc64-diag.git
   version: 2.7.4
-release_tag: 3.5-alpha-2018-01-21
+release_tag: 2018-01-21
 title: OpenPOWER Host OS release
 versions_commit: c87368ddd5f26ed504ca2e9bb01f8ea998bf51d9
-
+highlights: |
+    - Libvirt 4.0.0
+    - Removed libnl3 (now it comes from CentOS 7.4)
 ---
