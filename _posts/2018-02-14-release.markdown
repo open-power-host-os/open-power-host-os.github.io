@@ -1,0 +1,132 @@
+---
+builds_commit: 43c8a648797a239101934ffc64d5629b06ddbf64
+categories: tags release
+layout: release
+packages:
+- name: open-power-host-os
+  release: 10.alpha.el7.centos
+  sources: []
+  version: '3.5'
+- name: kernel
+  release: 1.rel.git33f711f.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 33f711f9fa30a18b8c9eeeebe80692e196078cf5
+    src: https://github.com/open-power-host-os/linux.git
+  version: 4.15.0
+- name: gcc
+  release: 17.rel.svn240558.el7.centos
+  sources:
+  - branch: redhat/gcc-4_8-branch@240558
+    commit_id: 79a21739f1484185ecea2200ccb172e129ab4073
+    src: https://github.com/open-power-host-os/gcc.git
+  version: 4.8.5
+- name: systemtap
+  release: 1.rel.git4051c70.el7.centos
+  sources:
+  - branch: master
+    commit_id: 4051c70c9318c837981384cbb23f3e9eb1bd0892
+    src: git://sourceware.org/git/systemtap.git
+  version: '3.2'
+- name: kubernetes
+  release: 0.23.rel.git4a3f9c5.el7.centos
+  sources:
+  - branch: release-1.2-stable-20160316
+    commit_id: 4a3f9c5b19c7ff804cbc1bf37a15c044ca5d2353
+    src: https://github.com/openshift/kubernetes.git
+  - branch: release-1.2
+    commit_id: ef1caba064de975387860175c3138aad432cf356
+    src: https://github.com/openshift/origin.git
+  - branch: master
+    commit_id: 18bb93d3509bd13a15639969c8b0ebe39a7f9b50
+    src: https://github.com/kubernetes/contrib.git
+  version: 1.2.0
+- name: golang-github-russross-blackfriday
+  release: 8.rel.git5f33e7b.el7.centos
+  sources:
+  - branch: master
+    commit_id: 5f33e7b7878355cd2b7e6b8eefc48a5472c69f70
+    src: https://github.com/russross/blackfriday
+  version: '1.2'
+- name: hwdata
+  release: 3.rel.git625a119.el7.centos
+  sources:
+  - branch: master
+    commit_id: 625a1194eaf9b764985ebec3a5da78dc71299238
+    src: https://github.com/vcrhonek/hwdata.git
+  version: '0.288'
+- name: servicelog
+  release: 9.rel.git15f2af5.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 15f2af56a53bb28df08a90763d717432e0ee73d5
+    src: https://github.com/open-power-host-os/servicelog.git
+  version: 1.1.14
+- name: libvirt
+  release: 1.rel.git7418247.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 741824700f9090a6f8ec013a35c013a4dca4551b
+    src: https://github.com/open-power-host-os/libvirt.git
+  version: 4.0.0
+- name: libvpd
+  release: 8.rel.git7d959c5.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 7d959c5ff48978853b01c43e959236988a46a018
+    src: https://github.com/open-power-host-os/libvpd.git
+  version: 2.2.5
+- name: SLOF
+  release: 2.rel.gitea31295.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: ea31295cf36598852b8ffea0a4f212625878f365
+    src: https://github.com/open-power-host-os/slof.git
+  version: '20170724'
+- name: docker-swarm
+  release: 3.rel.gita0fd82b
+  sources:
+  - branch: master
+    commit_id: a0fd82b90932741bda54245e990df433a9ee06a7
+    src: https://github.com/docker/swarm.git
+  version: 1.1.0
+- name: libservicelog
+  release: 3.rel.git1e39e77.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 1e39e7736d216a3e424baf6602739226e4c07e19
+    src: https://github.com/open-power-host-os/libservicelog.git
+  version: 1.1.18
+- name: golang-github-shurcooL-sanitized_anchor_name
+  release: 3.rel.git1dba4b3.el7.centos
+  sources:
+  - branch: master
+    commit_id: 1dba4b3954bc059efc3991ec364f9f9a35f597d2
+    src: https://github.com/shurcooL/sanitized_anchor_name
+  version: '0'
+- name: lsvpd
+  release: 4.rel.git63c0dfc.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 63c0dfc4fc8f5f8baf0a32483850a64bdb6befee
+    src: https://github.com/open-power-host-os/lsvpd.git
+  version: 1.7.8
+- name: qemu
+  release: 1.rel.gite7153e0.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: e7153e020f99fa51723653fee28ada8346b91fae
+    src: https://github.com/open-power-host-os/qemu.git
+  version: 2.11.0
+- name: ppc64-diag
+  release: 3.rel.git608507e.el7.centos
+  sources:
+  - branch: hostos-release
+    commit_id: 608507ea8ed81209204feacbbde40e234d261141
+    src: https://github.com/open-power-host-os/ppc64-diag.git
+  version: 2.7.4
+release_tag: 3.5-alpha-2018-02-14
+title: OpenPOWER Host OS release
+versions_commit: 8cabf6dfc6a0cc7224f7e084cbf9bcd12cdb13e5
+
+---
