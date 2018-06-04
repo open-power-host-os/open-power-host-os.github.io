@@ -15,13 +15,13 @@ build framework that allows the packaging and installation atop a
 traditional GNU/Linux distribution with the intent of facilitating
 development/experimentation with POWER.
 
-
 ### What's new
+Explore our [latest release]({{ latest_release.url }}).
+{% if latest_release.highlights %}
+Here are its highlights:
 
-Explore our [latest stable]({{ latest_stable.url }}) version. Here are its highlights:
-
-{{ latest_stable.highlights }}
-
+{{ latest_release.highlights }}
+{% endif %}
 
 ### Components
 

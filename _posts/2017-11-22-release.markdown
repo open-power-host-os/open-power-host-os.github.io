@@ -1,6 +1,6 @@
 ---
 builds_commit: 43c8a648797a239101934ffc64d5629b06ddbf64
-categories: tags release stable
+categories: tags release
 layout: release
 packages:
 - name: open-power-host-os
